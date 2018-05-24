@@ -1,0 +1,30 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 溢出菜单图标颜色-->
+        <item name="colorControlNormal">@android:color/white</item>
+        <!--添加到Theme里-->
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+        <item name="android:popupBackground">@color/colorPrimary</item>
+        <!-- 溢出菜单图标自定义-->
+        <item name="android:actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
+    </style>
+
+    <style name="OverflowMenu">
+        <!-- 设置弹出菜单文字颜色 -->
+        <item name="android:textColor">#fff</item>
+
+    </style>
+
+    <style name="OverflowButtonStyle"  parent="android:Widget.ActionButton.Overflow" >
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:src">@mipmap/ic_action_add</item>
+    </style>
+
+
+
+</resources>
